@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skr's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ✅ Best Fonts: Inter (Body) + Poppins (Headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <!-- ✅ Logo + Brand -->
+        <div class="left brand">
+          <img src="logo.jpeg" alt="Logo" class="nav-logo" />
+          <span>Shakeer's Portfolio</span>
+        </div>
+
+        <!-- Hamburger icon (only visible on mobile) -->
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="right" id="navMenu">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ✅ HERO -->
+      <section class="first" id="Home">
+        <div class="hero">
+          <!-- LEFT -->
+          <div class="hero-left">
+            <div class="hero-pill">
+              Open to Internships • Full Stack Developer
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="highlight">Shakeer</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              I’m <b>Mulla Shakeer</b>, a B.Tech CSE (AI) student focused on
+              building modern full-stack applications using MERN and improving
+              DSA for interviews. I enjoy creating responsive UIs, backend APIs,
+              and clean user experiences.
+            </p>
+
+            <div class="hero-chips">
+              <span class="chip">MERN Stack</span>
+              <span class="chip">DSA</span>
+              <span class="chip">AI</span>
+            </div>
+
+            <div class="hero-buttons">
+              <a class="btn" href="#Projects">View Projects</a>
+              <a class="btn outline" href="#Contact">Contact Me</a>
+            </div>
+
+            <div class="hero-mini">
+              <div class="mini-card">
+                <h4>CGPA</h4>
+                <p>7.7</p>
+              </div>
+              <div class="mini-card">
+                <h4>Projects</h4>
+                <p>2+</p>
+              </div>
+              <div class="mini-card">
+                <h4>Tech</h4>
+                <p>MERN</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="hero-right">
+            <div class="hero-image">
+              <!-- ✅ Logo shown in hero -->
+              <img src="logo.jpeg" alt="Shakeer Logo" class="hero-logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ✅ SKILLS -->
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Programming</h3>
+            <div class="chips">
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Frontend</h3>
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">React</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Backend</h3>
+            <div class="chips">
+              <span class="chip">Node.js</span>
+              <span class="chip">Express.js</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Database + Tools</h3>
+            <div class="chips">
+              <span class="chip">MongoDB</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">Git</span>
+              <span class="chip">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ✅ EDUCATION -->
+      <section class="section" id="Education">
+        <h2 class="section-title">Education</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>B.Tech (CSE - AI)</h3>
+            <p><b>SVR Engineering College, Nandyal</b></p>
+            <p>2022 – 2026</p>
+            <p class="badge">CGPA: 7.7 / 10</p>
+          </div>
+
+          <div class="card">
+            <h3>Intermediate (Class XII)</h3>
+            <p><b>Nalanda Junior College, Nandyal</b></p>
+            <p>2020 – 2022</p>
+            <p class="badge">Percentage: 91%</p>
+          </div>
+
+          <div class="card">
+            <h3>Secondary (Class X)</h3>
+            <p><b>AP Model School, Sirvel</b></p>
+            <p>2015</p>
+            <p class="badge">Percentage: 93%</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ✅ CERTIFICATIONS -->
+      <section class="section" id="Certifications">
+        <h2 class="section-title">Trainings & Certifications</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Machine Learning Workshop</h3>
+            <p>Predictive Analysis using Machine Learning</p>
+          </div>
+
+          <div class="card">
+            <h3>HackerRank</h3>
+            <div class="chips">
+              <span class="chip">Problem Solving (Basic)</span>
+              <span class="chip">Python</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ✅ PROJECTS -->
+      <section class="section" id="Projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="grid">
+          <div class="card project-card">
+            <h3>Notes Manager (MERN Stack)</h3>
+            <ul class="list">
+              <li>
+                Full-stack notes app using MongoDB, Express, React, Node.js
+              </li>
+              <li>REST APIs: add / edit / delete / view notes</li>
+              <li>Axios + React hooks for frontend-backend connection</li>
+              <li>Validation + basic error handling</li>
+            </ul>
+
+            <div class="chips">
+              <span class="chip">MongoDB</span>
+              <span class="chip">Express</span>
+              <span class="chip">React</span>
+              <span class="chip">Node</span>
+            </div>
+          </div>
+
+          <div class="card project-card">
+            <h3>Personal Portfolio Website</h3>
+            <ul class="list">
+              <li>Responsive portfolio website using HTML, CSS, JavaScript</li>
+              <li>Sections for projects, skills, contact</li>
+              <li>Deployed online</li>
+            </ul>
+
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ✅ CONTACT -->
+      <section class="section" id="Contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>Get in Touch</h3>
+            <p>If you'd like to connect, message me here:</p>
+            <p><b>Email:</b> shakeer3094@gmail.com</p>
+            
+            <p>
+              <b>LinkedIn:</b>
+              <a
+                href="https://www.linkedin.com/in/mulla-shakeer-113586263/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Open Profile
+              </a>
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Quick Message</h3>
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" required />
+              <input type="email" placeholder="Your Email" required />
+              <textarea placeholder="Your Message" rows="4" required></textarea>
+              <button type="submit" class="btn full">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const navMenu = document.getElementById("navMenu");
+      const navLinks = document.querySelectorAll("#navMenu a"); // ✅ all nav links
+
+      // Toggle open/close
+      hamburger.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+        hamburger.classList.toggle("active");
+      });
+
+      // ✅ Auto-close menu when any link is clicked
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navMenu.classList.remove("active"); // close menu
+          hamburger.classList.remove("active"); // reset hamburger icon
+        });
+      });
+    </script>
+  </body>
+</html>
